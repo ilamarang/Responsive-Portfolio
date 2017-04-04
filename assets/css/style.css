@@ -1,0 +1,490 @@
+/****************************************************/
+/* HTML & BODY */
+/****************************************************/
+
+html , body {
+
+	height: 100%;
+	margin: 0;
+	position:relative;
+}
+
+body {
+	
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	
+	margin: 0 0 5em	; /* bottom = footer height */
+	background-image: url("../images/cork-wallet.png");
+
+}
+/****************************************************/
+/* HEADER */
+/****************************************************/
+
+.header_container {
+	background-color: white;
+	
+}
+
+header {
+	
+	height: 3em;
+	
+	margin-left: 200px;
+	margin-right: 100px;
+	
+	
+}
+
+
+
+header h3 {
+
+	
+	float: left;
+	padding-top: 20px;
+	background-color: #4aaaa5;
+	text-align: center;
+	color: white;
+	padding: 15px;
+	padding-top:15px;
+
+
+}
+
+
+nav {
+	
+	float:right;
+	padding-top:1em;
+	
+
+
+	
+}
+
+nav ul {
+	
+	margin:0;
+	padding:0;
+	
+	
+}
+
+nav ul li {
+	
+	
+	float: left;
+	list-style:none;
+
+
+}
+
+
+nav ul li a {
+
+	text-decoration: none;
+	padding: 0.2em 0.5em;
+	
+
+}
+
+nav ul li + li:before {
+    content: " | ";
+        
+}
+
+
+#main_menu li:hover a
+	{
+		color:white;
+		background-color: teal;
+		border-radius: 20px;
+
+	}
+	
+
+/****************************************************/
+/* MAIN CONTENT */
+/****************************************************/
+
+#main_content {
+
+	margin-top: 0;
+	
+	border-top:5px solid #D3D3D3;
+	
+}
+
+#portfolio_content {
+
+	margin-top: 0;
+	height: 600px;
+	background-image: url("../images/cork-wallet.png");
+	border-top:5px solid #D3D3D3;
+	
+}
+
+/****************************************************/
+/* SECTION */
+/****************************************************/
+
+section {
+	width: 35%;
+	margin-left: 12em;
+	background-color: white;
+	float: left;
+	margin-top: 3em;
+	padding: 1em;
+		
+}
+
+section h1 {
+
+	color: teal;
+}
+
+#portfolio {
+	
+	width: 500px;
+	height: 550px;
+	margin-top:20px;
+	
+	padding:5px;
+
+}
+
+section hr {
+	
+	width: 100%;
+	color: grey;
+
+
+}
+
+article img {
+
+	float: left;
+	width: 40%;
+	height: 60%;
+	margin-right: 1em;
+
+}
+
+/****************************************************/
+/* ASIDE */
+/****************************************************/
+
+aside {
+	
+	float: right;
+	width: 15%;
+	height: 140px;
+	margin-right: 25%;
+	background-color: white;
+	margin-top: 3em;
+	padding-left:2em;
+	padding-right: 1em;
+	padding-top: 1em;
+
+
+}
+
+aside h3 {
+
+	color: teal;
+	padding-left:1em;
+}
+
+aside hr {
+	
+	width: 75%;
+	color: grey;
+	margin-left:1em;
+
+	
+
+}
+
+
+
+/****************************************************/
+/* SOCIAL MEDIA */
+/****************************************************/
+
+.social_media li {
+	
+	list-style:none;
+	float:left;
+	margin-right:0.5em;
+	padding:0;
+	list-style-position:inside;
+
+}
+
+ul.social_media {
+
+	padding:0;
+	margin-left:1em;
+	padding-top:1em;
+}
+
+.social_media li a {
+	
+	display:block;
+	text-indent:-9999px;
+	width:3em; 
+	height:3em;
+	
+}
+
+.social_media li a.github { 
+
+	background:url("../images/github_image.png") no-repeat;
+
+}
+.social_media li a.linkedin {
+
+	background:url("../images/linkedin_image.png") no-repeat;
+
+}
+
+.social_media li a.stackoverflow {
+
+	background:url("../images/stackoverflow_image.png") no-repeat;
+
+}
+
+/****************************************************/
+/* CONNECT */
+/****************************************************/
+
+#connect #form {
+	
+	width:600px;
+	color: grey;
+}
+
+#connect #form span {
+	
+	display:block;
+	padding-top:5px;
+	
+}
+#connect_hr {
+	width: 600px;
+	margin:0;
+	color: grey;
+}
+
+#connect #form input {
+	
+	width:100%;
+	border:0px;
+	padding-top:20px;
+	margin-bottom:10px;
+
+
+}
+
+#connect #form textarea {
+	
+	border:0px;
+	width:100%;
+	height:100px;
+	padding-top:20px;
+		
+}
+
+#connect #form input.name {
+	
+	border:1px solid #dddddd;
+
+}
+
+#connect #form input.email {
+
+	border:1px solid #dddddd;
+
+}
+
+#connect #form textarea.message {
+	border:1px solid #dddddd;
+
+}
+
+#connect #form input.submit { 
+	
+	width:75px;   
+	height:30px;
+	padding:0px 0px 5px 0px;
+	margin:10px 16px 0px 0px;
+	font-size: 1em;
+	background-color: teal;
+	color: white;
+	text-align: center;
+	
+}
+
+/****************************************************/
+/* PORTFOLIO */
+/****************************************************/
+
+#work {
+	margin:0;
+}
+
+#work h1 {
+
+	margin-left: 20px;
+}
+
+#work hr {
+	
+	margin-left:20px;
+	width:450px;
+
+	}
+
+#work-thumbs  {
+	
+	list-style: none; 
+	margin: 20px;
+	padding-left:0;
+}
+
+#work #work-thumbs li {
+	
+	list-style:none;
+	float:left;
+	position: relative;
+	margin-right: 10px;
+	padding:0;
+
+}
+
+
+#work #work-thumbs li img {
+	
+	width:220px;
+	height: 150px;
+
+}
+
+#work #work-thumbs li .text-field {
+
+	position: absolute; 
+	top: 110px; left: 0; 
+	right:0;
+	color: #fff; background-color: teal; 
+	display: inline-block; font-size: 14px; padding: 5px 10px; 
+	font-weight: bold;
+
+}
+
+/****************************************************/
+/* FOOTER */
+/****************************************************/
+
+
+
+.footer{
+	height: 5em;  /* .push must be the same height as .footer */
+	font-size: 0.7em;
+	text-align: center;
+	background-color: grey;
+	clear: both;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	border-top:10px solid teal;
+
+}
+
+/****************************************************/
+/* MISC */
+/****************************************************/
+
+.clear {
+
+		clear: both;
+
+}
+
+/****************************************************/
+/* MEDIA QUERIES */
+/****************************************************/
+
+@media screen and (max-width: 640px) {
+
+	header {
+        display: table;
+        margin:0;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav {
+        display: table-footer-group;
+        float: none;
+        width: 100%;
+        justify-content: center;
+        padding:0.5em;
+
+
+    }
+    .header_name {
+        display: table-header-group;
+        float: none;
+        width: 100%;
+    }
+    h3 {
+    	width: 100%;
+    }
+    nav ul li {
+    	float: none;
+    	display:inline;
+    	padding:0.5em;
+
+    }
+    
+
+
+
+
+    section {
+        width:90%;
+        margin:0.5em;        
+
+    }
+    article img {
+        float:none;
+        width:100%;
+        padding-bottom: 1em;
+        
+
+    }
+    aside {
+        width:90%;
+        margin:.5em;
+        padding-top:1em;
+        padding-left: 1em;
+
+    }
+    
+    
+   
+    
+   body {
+   	margin: 0 0 2em;
+   }
+   .footer{
+	height: 2em;
+	position:relative;
+}
+
+}
+
+
+
+
