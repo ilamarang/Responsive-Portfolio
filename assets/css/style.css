@@ -155,6 +155,7 @@ section h1 {
 
 }
 
+
 section hr {
 	
 	width: 100%;
@@ -331,57 +332,15 @@ ul.social_media {
 /* PORTFOLIO */
 /****************************************************/
 
-#work {
-	margin:0;
-}
 
 #work h1 {
 
-	margin-left: 2em;
+	margin-left: 1em;
+	padding-bottom: 1em;
+	padding-top:0.5em;
+	border-bottom: 1px solid grey;
 }
 
-#work hr {
-	
-	margin-left:20px;
-	width:450px;
-
-}
-
-#work-thumbs  {
-	
-	list-style: none; 
-	margin: 20px;
-	padding-left:0;
-}
-
-#work #work-thumbs li {
-	
-	list-style:none;
-	display: inline-block;
-	position: relative;
-	margin-right: 1em;
-	padding:0;
-
-}
-
-
-#work #work-thumbs li img {
-	
-	
-	
-
-}
-
-#work #work-thumbs li .text-field {
-
-	position: absolute; 
-	top: 8em; left: 0; 
-	right:0;
-	color: #fff; background-color: teal; 
-	display: inline-block; font-size: 1em; padding: 0.5em 1em; 
-	font-weight: bold;
-
-}
 
 /****************************************************/
 /* FOOTER */
@@ -473,6 +432,24 @@ ul.social_media {
 
 	}
 
+	#portfolio {
+	
+	width: 90%;
+
+	}
+
+	#work #work-thumbs li img {
+		
+		
+		margin-right: 2em;
+	
+
+}
+
+#work #work-thumbs li .text-field {
+	width: auto;
+
+	}
 
 
 
@@ -526,6 +503,25 @@ ul.social_media {
 
 	}
 
+	#portfolio {
+	
+	width: 90%;
+
+	}
+	#work #work-thumbs li {
+		float: left;
+	}
+
+	#work #work-thumbs li img {
+		
+		
+
+		margin-right: 5em;
+	
+
+}
+
+
 }
 
 @media screen and (max-width: 1300px) and (min-width: 768px) {
@@ -569,12 +565,75 @@ ul.social_media {
 
 
 	}
+	#portfolio {
+	
+	
+
+	}
+
 
 }
 
 @media screen and (min-width: 980px) {
 
 	
+}
+
+.wrap {
+    overflow: hidden;
+    margin: 10px;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box {
+    float: left;
+    position: relative;
+    width: 20%;
+    padding-bottom: 20%;
+}
+
+.boxInner {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    overflow: hidden;
+}
+ .boxInner img { width: 100% }
+
+
+@media only screen and (max-width:480px) { 
+    /* Smartphone view: 1 tile */
+    .box {
+        width: 100%;
+        padding-bottom: 100%;
+    }
+}
+@media only screen and (max-width:650px) and (min-width:481px) { 
+    /* Tablet view: 2 tiles */
+    .box {
+        width: 50%;
+        padding-bottom: 50%;
+    }
+}
+@media only screen and (max-width:1050px) and (min-width:651px) { 
+    /* Small desktop / ipad view: 3 tiles */
+    .box {
+        width: 33.3%;
+        padding-bottom: 33.3%;
+    }
+}
+@media only screen and (min-width:1051px) { 
+    /* Medium desktop: 4 tiles */
+   
+    .box {
+        width: 50%;
+        padding-bottom: 25%;
+
+    }
+
 }
 
 
