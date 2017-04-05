@@ -33,15 +33,11 @@ header {
 	
 	margin-left: 200px;
 	margin-right: 100px;
-	
-	
+
 }
-
-
 
 header h3 {
 
-	
 	float: left;
 	padding-top: 20px;
 	background-color: #4aaaa5;
@@ -49,7 +45,6 @@ header h3 {
 	color: white;
 	padding: 15px;
 	padding-top:15px;
-
 
 }
 
@@ -59,25 +54,19 @@ nav {
 	float:right;
 	padding-top:1em;
 	
-
-
-	
 }
 
 nav ul {
 	
 	margin:0;
 	padding:0;
-	
-	
+
 }
 
 nav ul li {
-	
-	
+
 	float: left;
 	list-style:none;
-
 
 }
 
@@ -119,8 +108,7 @@ nav ul li + li:before {
 
 #portfolio_content {
 
-	margin-top: 0;
-	
+	margin-top: 0;	
 	background-image: url("../images/cork-wallet.png");
 	border-top:5px solid #D3D3D3;
 	
@@ -147,10 +135,8 @@ section h1 {
 
 #portfolio {
 	
-	width: 40%;
-	
-	margin-top:2em;
-	
+	width: 40%;	
+	margin-top:2em;	
 	padding:0.3em;
 
 }
@@ -160,7 +146,6 @@ section hr {
 	
 	width: 100%;
 	color: grey;
-
 
 }
 
@@ -341,6 +326,48 @@ ul.social_media {
 	border-bottom: 1px solid grey;
 }
 
+.wrap {
+	overflow: hidden;
+	margin: 10px;
+	max-width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.box {
+	float: left;
+	position: relative;
+	width: 20%;
+	padding-bottom: 20%;
+}
+
+.boxInner {
+	position: absolute;
+	left: 10px;
+	right: 10px;
+	top: 10px;
+	bottom: 10px;
+	overflow: hidden;
+}
+.boxInner img { 
+	width: 100% 
+}
+.titleBox {
+	
+  position: absolute;
+  bottom: 1.5em;
+  width: 100%;
+  padding: 1em;
+  margin-bottom: 0;
+  font-weight: 300;
+  padding:0.5em;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+
+
 
 /****************************************************/
 /* FOOTER */
@@ -433,23 +460,14 @@ ul.social_media {
 	}
 
 	#portfolio {
-	
-	width: 90%;
+
+		width: 90%;
 
 	}
 
-	#work #work-thumbs li img {
-		
-		
-		margin-right: 2em;
-	
 
-}
 
-#work #work-thumbs li .text-field {
-	width: auto;
 
-	}
 
 
 
@@ -504,8 +522,8 @@ ul.social_media {
 	}
 
 	#portfolio {
-	
-	width: 90%;
+
+		width: 90%;
 
 	}
 	#work #work-thumbs li {
@@ -517,9 +535,9 @@ ul.social_media {
 		
 
 		margin-right: 5em;
-	
 
-}
+
+	}
 
 
 }
@@ -565,74 +583,45 @@ ul.social_media {
 
 
 	}
-	#portfolio {
-	
 	
 
-	}
-
 
 }
 
-@media screen and (min-width: 980px) {
 
-	
-}
 
-.wrap {
-    overflow: hidden;
-    margin: 10px;
-  max-width: 1500px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.box {
-    float: left;
-    position: relative;
-    width: 20%;
-    padding-bottom: 20%;
-}
 
-.boxInner {
-    position: absolute;
-    left: 10px;
-    right: 10px;
-    top: 10px;
-    bottom: 10px;
-    overflow: hidden;
-}
- .boxInner img { width: 100% }
 
 
 @media only screen and (max-width:480px) { 
-    /* Smartphone view: 1 tile */
-    .box {
-        width: 100%;
-        padding-bottom: 100%;
-    }
+	/* Smartphone view: 1 tile */
+	.box {
+		width: 100%;
+		padding-bottom: 100%;
+	}
 }
 @media only screen and (max-width:650px) and (min-width:481px) { 
-    /* Tablet view: 2 tiles */
-    .box {
-        width: 50%;
-        padding-bottom: 50%;
-    }
+	/* Tablet view: 2 tiles */
+	.box {
+		width: 50%;
+		padding-bottom: 50%;
+	}
 }
 @media only screen and (max-width:1050px) and (min-width:651px) { 
-    /* Small desktop / ipad view: 3 tiles */
-    .box {
-        width: 33.3%;
-        padding-bottom: 33.3%;
-    }
+	/* Small desktop / ipad view: 3 tiles */
+	.box {
+		width: 33.3%;
+		padding-bottom: 33.3%;
+	}
 }
 @media only screen and (min-width:1051px) { 
-    /* Medium desktop: 4 tiles */
-   
-    .box {
-        width: 50%;
-        padding-bottom: 25%;
+	/* Medium desktop: 4 tiles */
 
-    }
+	.box {
+		width: 50%;
+		padding-bottom: 25%;
+
+	}
 
 }
 
