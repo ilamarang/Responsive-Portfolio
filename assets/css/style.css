@@ -7,6 +7,7 @@ html , body {
 	height: 100%;
 	margin: 0;
 	position:relative;
+
 }
 
 body {
@@ -119,7 +120,7 @@ nav ul li + li:before {
 #portfolio_content {
 
 	margin-top: 0;
-	height: 600px;
+	
 	background-image: url("../images/cork-wallet.png");
 	border-top:5px solid #D3D3D3;
 	
@@ -146,11 +147,11 @@ section h1 {
 
 #portfolio {
 	
-	width: 500px;
-	height: 550px;
-	margin-top:20px;
+	width: 40%;
 	
-	padding:5px;
+	margin-top:2em;
+	
+	padding:0.3em;
 
 }
 
@@ -178,13 +179,13 @@ article img {
 aside {
 	
 	float: right;
-	width: 15%;
-	height: 140px;
-	margin-right: 25%;
+	width: 14em;
+	height: 8em;
+	margin-right: 5%;
 	background-color: white;
 	margin-top: 3em;
-	padding-left:2em;
-	padding-right: 1em;
+	padding-left:1em;
+	padding-right: 2em;
 	padding-top: 1em;
 
 
@@ -261,18 +262,18 @@ ul.social_media {
 
 #connect #form {
 	
-	width:600px;
+	width:95%;
 	color: grey;
 }
 
 #connect #form span {
 	
 	display:block;
-	padding-top:5px;
+	padding-top:0.3em;
 	
 }
 #connect_hr {
-	width: 600px;
+	width: 95%;
 	margin:0;
 	color: grey;
 }
@@ -281,8 +282,8 @@ ul.social_media {
 	
 	width:100%;
 	border:0px;
-	padding-top:20px;
-	margin-bottom:10px;
+	padding-top:2em;
+	margin-bottom:1em;
 
 
 }
@@ -291,8 +292,8 @@ ul.social_media {
 	
 	border:0px;
 	width:100%;
-	height:100px;
-	padding-top:20px;
+	height:10em;
+	padding-top:2em;
 
 }
 
@@ -315,10 +316,10 @@ ul.social_media {
 
 #connect #form input.submit { 
 	
-	width:75px;   
-	height:30px;
-	padding:0px 0px 5px 0px;
-	margin:10px 16px 0px 0px;
+	width:5em;   
+	height:2em;
+	padding:0em 0em 0.3em 0em;
+	margin:1em 1.5em 0em 0em;
 	font-size: 1em;
 	background-color: teal;
 	color: white;
@@ -336,7 +337,7 @@ ul.social_media {
 
 #work h1 {
 
-	margin-left: 20px;
+	margin-left: 2em;
 }
 
 #work hr {
@@ -356,9 +357,9 @@ ul.social_media {
 #work #work-thumbs li {
 	
 	list-style:none;
-	float:left;
+	display: inline-block;
 	position: relative;
-	margin-right: 10px;
+	margin-right: 1em;
 	padding:0;
 
 }
@@ -366,18 +367,18 @@ ul.social_media {
 
 #work #work-thumbs li img {
 	
-	width:220px;
-	height: 150px;
+	
+	
 
 }
 
 #work #work-thumbs li .text-field {
 
 	position: absolute; 
-	top: 110px; left: 0; 
+	top: 8em; left: 0; 
 	right:0;
 	color: #fff; background-color: teal; 
-	display: inline-block; font-size: 14px; padding: 5px 10px; 
+	display: inline-block; font-size: 1em; padding: 0.5em 1em; 
 	font-weight: bold;
 
 }
@@ -465,6 +466,9 @@ ul.social_media {
 		width:90%;
 		margin:.5em;
 		padding-top:1em;
+		float: left;
+		padding-left: 0;
+		padding-right: 
 
 
 	}
@@ -509,15 +513,22 @@ ul.social_media {
 
 	aside {
 		width:90%;
-		margin:.5em;
+		margin:0;
+		padding:0;
+		margin-top:.5em;
 		padding-top:1em;
+
+		float:left;
+		margin-left:0.6em;
+		padding-right: 2em;
+
 
 
 	}
 
 }
 
-@media screen and (max-width: 960px) and (min-width: 768px) {
+@media screen and (max-width: 1300px) and (min-width: 768px) {
 
 	header {
 		
@@ -561,6 +572,9 @@ ul.social_media {
 
 }
 
+@media screen and (min-width: 980px) {
 
+	
+}
 
 
