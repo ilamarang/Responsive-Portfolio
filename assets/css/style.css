@@ -10,7 +10,7 @@ body {
 }
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin: 0 0 5em;
+    margin: 0 0 3em;
     /* bottom = footer height */
     
     background-image: url("../images/cork-wallet.png");
@@ -258,17 +258,18 @@ ul.social_media {
 /****************************************************/
 
 .footer {
-    height: 5em;
-    /* .push must be the same height as .footer */
     
-    font-size: 0.7em;
+    height: 3em; 
+    font-size: 0.8em;
     text-align: center;
+    padding-top:3em;    
     background-color: grey;
     clear: both;
     position: absolute;
     bottom: 0;
     width: 100%;
-    border-top: 10px solid teal;
+    border-top: 0.7em solid teal;
+
 }
 /****************************************************/
 /* MISC */
@@ -369,6 +370,10 @@ ul.social_media {
     .box {
         width: 50%;
         padding-bottom: 50%;
+    }
+    .footer {
+        height: 2em;
+        position: relative;
     }
 }
 @media screen and (max-width: 1300px) and (min-width: 769px) {
